@@ -25,7 +25,7 @@
   float: right;
 }
 
-.nav-anchor {
+.nav_anchor {
   margin:auto;
   text-decoration: none;
   font-style: normal;
@@ -38,7 +38,7 @@
   padding-top: 60px;
 }
 
-.nav-anchor:hover {
+.nav_anchor:hover {
   color: grey;
 }
 
@@ -97,7 +97,8 @@ body {
   width: 100%;
 }
 
-.firstimage {
+
+.home_info_image {
   margin: 0 auto;
   background: #f9f9f9;
 }
@@ -119,7 +120,7 @@ color: white;
 padding-bottom: 10%;
 }
 
-.acmintro {
+.intro_para {
 float: left;
 padding: 0 50px 50px 0;
 font-family: sans-serif;
@@ -147,7 +148,8 @@ height: 1000px;
   font-family: sans-serif;
 }
 
-.aboutusinfo {
+/* TODO: Use consistent naming scheme */
+.about_us_info {
   text-align: center;
   padding: 80px;
   font-family: sans-serif;
