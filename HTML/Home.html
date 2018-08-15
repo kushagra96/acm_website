@@ -13,11 +13,37 @@
     <script type="text/javascript">
     $(document).ready(function() {
       $(window).scroll(function() {
-        if ($(this).scrollTop()>600) {
-          document.getElementById("navbar").className = "nav_bar_list";
+        if ($(this).scrollTop()>400 && $(this).scrollTop()<=425) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#0000008a,#00000005)';
+            document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if($(this).scrollTop()>425 && $(this).scrollTop()<=450) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#00000066,#00000030)';
+            document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if ($(this).scrollTop()>450 && $(this).scrollTop()<=475) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#00000091,#00000065)';
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if ($(this).scrollTop()>475 && $(this).scrollTop()<=550) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#000000e8,#00000089)';
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if ($(this).scrollTop()>550 && $(this).scrollTop()<=600) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#000000df,#000000a6)';
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if ($(this).scrollTop()>600 && $(this).scrollTop()<=650) {
+          document.getElementById("navbar").style.background= 'linear-gradient(#000000,#000000a1)';
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
+        }
+        else if ($(this).scrollTop()>650){
+          document.getElementById("navbar").style.background='linear-gradient(#000000,#000000c7)';
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
         }
         else {
-          document.getElementById("navbar").className = "nav_bar_list1";
+          document.getElementById("navbar").style.background= "#00000000";
+          document.getElementById("navbar").style.transition='background-color 0.1s ease-out';
         }
       })
     });
