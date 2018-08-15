@@ -105,16 +105,16 @@ height: 1000px;
 }
 
 .about_us_block {
-  padding-top: 200px;
-  background-color: #0000008c;
-  height: 800px;
+padding-top: 200px;
+background-color: #0000008c;
+height: 800px;
 }
 
 .heading {
-  text-align:center;
-  color: white;
-  font-size: 23;
-  font-family: sans-serif;
+text-align:center;
+color: white;
+font-size: 65px;
+font-family: sans-serif;
 }
 
 /* TODO: Use consistent naming scheme */
