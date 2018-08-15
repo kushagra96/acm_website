@@ -1,7 +1,15 @@
-function scrollcolor() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("navigationbar").className = "test";
-    } else {
-        document.getElementById("navigationbar").className = "";
+
+$(document).ready(function(){
+  $('body').scrollspy({target: ".navigationbar", offset: 50});
+  $("#navbar a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
     }
-}
+  });
+});
