@@ -156,3 +156,20 @@ height: 1000px;
   font-size: 17px;
   color: white;
 }
+
+.acm_aim {
+font-family: sans-serif;
+font-size: 18px;
+padding: 30px;
+padding-right: 10%;
+background-color: #feffff;
+color: black;
+padding-bottom: 15%;
+}
+
+.heading_aim {
+text-align:center;
+color: black;
+font-size: 65px;
+font-family: sans-serif;
+}
