@@ -85,22 +85,14 @@ height: 750px;
 }
 
 .intro {
-font-family: sans-serif;
-font-size: 17px;
-padding: 30px;
 padding-right: 10%;
 background-color: #bfccc5;
 color: white;
-padding-bottom: 10%;
+padding-bottom: 7%;
+display: table;
 }
 
-.intro_para {
-float: left;
-padding: 0 50px 50px 0;
-font-family: sans-serif;
-font-size: 17px;
-color: white;
-}
+
 
 .about_us {
 background: url('../images/aboutus.jpeg') no-repeat center;
@@ -269,16 +261,64 @@ a.fa {
   margin: none;
   font-family: sans-serif;
   padding-top: 0;
-  padding-left: 40px;
+  padding-left: 15%;
 }
 
 .container {
   width:100%;
   margin: 0px auto;
 }
- @@media screen and (max-width:99%) {
+ @media screen and (max-width:99%) {
     .container {
       width:100%;
     }
+}
 
+.image_container {
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 50px;
+  font-family: sans-serif;
+  float:left;
+  font-size: 17px;
+}
+
+.aim_block {
+  padding-right: 10%;
+  background-color: white;
+  color: black;
+  padding-bottom: 7%;
+  display: table;
+}
+
+.Treasurer {
+  color:red;
+  margin: none;
+  font-family: sans-serif;
+  padding-top: 0;
+  padding-left: 17%;
+}
+
+.mem_chair {
+  color:red;
+  margin: none;
+  font-family: sans-serif;
+  padding-top: 0;
+  padding-left: 5%;
+}
+
+.gen_sec {
+  color:red;
+  margin: none;
+  font-family: sans-serif;
+  padding-top: 0;
+  padding-left: 8%;
+}
+
+.vice_pres {
+  color:red;
+  margin: none;
+  font-family: sans-serif;
+  padding-top: 0;
+  padding-left: 10%;
 }
