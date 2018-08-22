@@ -19,7 +19,7 @@
   text-decoration: none;
   font-style: normal;
   font-family: sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   display: block;
   color: white;
   padding: 10% 25px;
@@ -209,7 +209,7 @@ textarea:focus {
  .heading1_board {
  text-align:center;
  color: black;
- font-size: 15px;
+ font-size: 19px;
  font-family: sans-serif;
  padding-bottom: 30px;
  }
@@ -296,7 +296,7 @@ a.fa {
   margin: none;
   font-family: sans-serif;
   padding-top: 0;
-  padding-left: 17%;
+  padding-left: 19%;
 }
 
 .mem_chair {
@@ -320,5 +320,5 @@ a.fa {
   margin: none;
   font-family: sans-serif;
   padding-top: 0;
-  padding-left: 10%;
+  padding-left: 12%;
 }
