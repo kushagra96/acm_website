@@ -4,9 +4,8 @@
   padding: 0px;
   overflow: hidden;
   transition: 0.8s;
-  padding-left: 5%;
   padding-right: 10%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 
@@ -51,7 +50,6 @@
 }
 
 .navimagechange  {
-  margin-top: 20%;
   padding-bottom: 2%;
   padding: 0px;
   background-color: black;
@@ -249,6 +247,8 @@ textarea:focus {
 .board_picture {
   border-radius: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -262,6 +262,7 @@ a.fa {
   margin: none;
   font-family: sans-serif;
   padding-top: 0;
+  text-align: center;
 }
 
 .container {
