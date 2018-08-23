@@ -22,9 +22,9 @@
   font-size: 120%;
   display: block;
   color: white;
-  padding: 10% 25px;
+  padding: 5px 20px;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .nav_anchor:hover {
@@ -32,17 +32,20 @@
 }
 
 .navbar_image {
-  margin-top: 2%;
+  padding-top:60px;
   padding-bottom: 2%;
   padding: 0px;
   overflow: hidden;
-  padding-top: 1%;
   margin-left: 0px;
   padding-left: 0px;
   opacity 0;
   transition: opacity 2s ease-out;
 }
 
+.nav_anchor_image {
+  padding-left: 10%;
+  padding-top: 30px;
+}
 .navigationbar {
   position: fixed;
 }
@@ -53,7 +56,6 @@
   padding: 0px;
   background-color: black;
   overflow: hidden;
-  padding-top: 1%;
   margin-left: 0px;
   padding-left: 0px;
   opacity: 0;
@@ -247,7 +249,6 @@ textarea:focus {
 .board_picture {
   border-radius: 50%;
   display: block;
-  padding: 0;
 
 }
 
@@ -261,7 +262,6 @@ a.fa {
   margin: none;
   font-family: sans-serif;
   padding-top: 0;
-  padding-left: 15%;
 }
 
 .container {
@@ -275,8 +275,7 @@ a.fa {
 }
 
 .image_container {
-  padding: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 50px;
   font-family: sans-serif;
   float:left;
