@@ -290,34 +290,6 @@ a.fa {
   display: table;
 }
 
-.Treasurer {
-  color:red;
-  margin: none;
-  font-family: sans-serif;
-  padding-top: 0;
-  padding-left: 19%;
-}
-
-.mem_chair {
-  color:red;
-  margin: none;
-  font-family: sans-serif;
-  padding-top: 0;
-  padding-left: 5%;
-}
-
-.gen_sec {
-  color:red;
-  margin: none;
-  font-family: sans-serif;
-  padding-top: 0;
-  padding-left: 8%;
-}
-
-.vice_pres {
-  color:red;
-  margin: none;
-  font-family: sans-serif;
-  padding-top: 0;
-  padding-left: 12%;
+.icons {
+  text-align: center;
 }
