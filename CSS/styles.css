@@ -27,7 +27,8 @@
 }
 
 .nav_anchor:hover {
-  color: grey;
+  color: #d6d0d0;
+  font-size: 130%;
 }
 
 .navbar_image {
@@ -280,7 +281,7 @@ a.fa {
   padding-top: 50px;
   font-family: sans-serif;
   float:left;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .aim_block {
