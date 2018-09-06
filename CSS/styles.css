@@ -141,7 +141,7 @@ text-align:center;
 color: black;
 font-size: 65px;
 font-family: sans-serif;
-padding-top: 12%;
+padding-top: 20%;
 }
 
 .contact_us {
@@ -215,7 +215,7 @@ textarea:focus {
   color: black;
   font-size: 65px;
   font-family: sans-serif;
-  padding-top: 175px;
+  padding-top: 15%;
 }
 
 .board_picture {
