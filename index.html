@@ -13,6 +13,7 @@
 
 
     <!-- Scripts -->
+  
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
    <script type="text/javascript">
     $(document).ready(function() {
@@ -73,8 +74,8 @@
       <ul class="nav_bar_list" id="navbar">
         <li class="navbar_list"><a class="nav_anchor" href="#contactus">Contact Us</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#board">Board</a></li>
-        <li class="navbar_list"><a class="nav_anchor" href="projects">Projects</a></li>
-        <li class="navbar_list"><a class="nav_anchor" href="workshops">Workshops</a></li>
+        <li class="navbar_list"><a class="nav_anchor" href="#workshops">Workshops</a></li>
+        <li class="navbar_list"><a class="nav_anchor" href="#vision">Vision</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#About">About Us</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#home">Home</a></li>
         <li class="navbar_image"><img src ="images/acmlogo2.png" width="50%" class="nav_anchor_image"></li>
@@ -114,17 +115,21 @@
       </div>
     </div>
 
-    <div class="aim_block">
+    <div class="aim_block" id="vision">
       <div class="image_container" style="width:44.33%">
         <img src="images/acm_aim.jpeg" width="100%" style="padding-top:20%" />
       </div>
       <div class ="image_container" style="width:44.66%">
-        <h1 class="heading_aim"> Aim</h1>
+        <h1 class="heading_aim"> Vision</h1>
       <p>Our founding members saw a huge scope for improvement in the computer science culture at MIT Manipal. Lack of opportunity,
          information and motivation needed to be eliminated, for MIT to have a thriving culture in the science of computing.
          To rejuvenate the community, ACM Manipal was set up.
       </p>
     </div>
+  </div>
+
+  <div class="Workshops_block" id="workshops">
+
   </div>
 
 
@@ -139,7 +144,8 @@
         <div class="icons">
         <a class="fa fa-github" style="font-size:28px;color:black;" href="https://github.com/prati0100"></a>
         <a class="fa fa-linkedin-square" style="font-size:28px;color:#0593d4;;" href="https://www.linkedin.com/in/pratyush-yadav-b9a372142/"></a>
-        <a class="fa fa-envelope"  style="font-size:28px;color:grey" href="mailto:me@yadavpratyush.com"></a>
+        <a class="fa fa-envelope"  style="font-size:28px;color:grey" href="mailto:me@yadavpratyush.com"></a><br><br>
+        <a href="tel:+91-8168232510" class="phonenumber">+91-8168232510</a>
       </div>
     </div>
       <div class="member_block">
@@ -152,7 +158,7 @@
       </div>
       </div>
       <div class="member_block">
-        <img src="images/place.jpeg" height="150px" class="board_picture"></img>
+        <img src="images/tanvi.jpg" height="150px" class="board_picture"></img>
         <p class="Board_post">Treasurer</p>
         <div class="icons">
         <a class="fa fa-github" style="font-size:28px;color:black;" href=""></a>
@@ -161,16 +167,16 @@
       </div>
       </div>
       <div class="member_block">
-        <img src="images/place.jpeg" height="150px" class="board_picture"></img>
+        <img src="images/dyuti.png" height="150px" class="board_picture"></img>
         <p class="Board_post">General Secretary</p>
         <div class="icons">
         <a class="fa fa-github" style="font-size:28px;color:black;" href=""></a>
-        <a class="fa fa-linkedin-square" style="font-size:28px;color:#0593d4;;" href=""></a>
+        <a class="fa fa-linkedin-square" style="font-size:28px;color:#0593d4;" href=""></a>
         <a class="fa fa-envelope"  style="font-size:28px;color:grey" href=""></a>
       </div>
       </div>
       <div class="member_block">
-        <img src="images/place.jpeg" height="150px" class="board_picture"></img>
+        <img src="images/rajan.jpg" height="150px" class="board_picture"></img>
         <p class="Board_post">Membership Chairman</p>
         <div class="icons">
         <a class="fa fa-github" style="font-size:28px;color:black;" href=""></a>
@@ -180,22 +186,22 @@
       </div>
     </div>
 
-  <div class="contact_us" id="contactus">
-      <form method="post" enctype="text/plain" >
-        <div class="contact_us_block">
-        <h1 class= "heading_aim" style="padding-top= "20px"">Contact Us</h1>
-      </div>
-      <div class="contact_us_form" id="contact-form">
-        <input type="text" id="name" class="contact_us_field" placeholder="Name" required><br>
-        <input type="email" id="email" class="contact_us_field" placeholder="E-mail" required><br>
-        <input type="tel" id="phonenumber" class="contact_us_field" placeholder="Phone Number" maxlength="10" minlength="10" required><br>
-        <textarea id="message" name="subject" placeholder="Message" style="height:120px" class="contact_us_text" ></textarea><br>
-        <div class="send_align">
-        <input type="submit" name="send" placeholder="Send" class="send_button" onclick="resetForm()"></input>
-      </div>
-      </div>
-      </form>
-    </div>
+    <div class="contact_us" id="contactus">
+         <form method="post" enctype="text/plain" >
+           <div class="contact_us_block">
+           <h1 class= "heading_aim" style="padding-top= "20px"">Contact Us</h1>
+         </div>
+         <div class="contact_us_form" id="contact-form">
+           <input type="text" id="name" class="contact_us_field" placeholder="Name" required><br>
+           <input type="email" id="email" class="contact_us_field" placeholder="E-mail" required><br>
+           <input type="tel" id="phonenumber" class="contact_us_field" placeholder="Phone Number" maxlength="10" minlength="10" required><br>
+           <textarea id="message" name="subject" placeholder="Message" style="height:120px" class="contact_us_text" ></textarea><br>
+           <div class="send_align">
+           <input type="submit" name="send" placeholder="Send" class="send_button" onclick="resetForm()"></input>
+         </div>
+         </div>
+         </form>
+       </div>
 
 
 
