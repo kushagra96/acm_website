@@ -103,7 +103,7 @@ height: 1000px;
 }
 
 .about_us_block {
-padding-top: 200px;
+padding-top: 15%;
 background-color: #0000008c;
 height: 800px;
 }
@@ -141,7 +141,7 @@ text-align:center;
 color: black;
 font-size: 65px;
 font-family: sans-serif;
-padding-top: 20%;
+padding-top: 25%;
 }
 
 .contact_us {
