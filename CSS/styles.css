@@ -239,12 +239,12 @@ a.fa {
   text-align: center;
 }
 
-.container-fluid{
+.container{
   width:100%;
   margin: 0px auto;
 }
  @media screen and (max-width:99%) {
-    .container-fluid {
+    .container{
       width:100%;
     }
 }
