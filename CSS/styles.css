@@ -64,27 +64,6 @@ body {
   margin: 0;
 }
 
-.homeimg {
-  position: static;
-  background-attachment: scroll;
-  background-size:100%;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-
-.home_info_image {
-  margin: 0 auto;
-  background: #f9f9f9;
-}
-
-.homeinfo {
-background: url('../images/background.jpeg') no-repeat center;
-background-size: 100% 100%;
-background-attachment: fixed;
-height: 750px;
-}
-
 .intro {
 padding-right: 10%;
 background-color: #bfccc5;
@@ -274,67 +253,3 @@ a.fa {
   color: black;
   font-family: sans-serif;
 }
-
-.contact_us {
-  background: url('../images/contactus.jpeg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position:center;
-  height: 900px;
-  margin: 0;
-}
-
-.contact_us_field {
-  width: 35%;
-  padding: 12px 25px;
-  margin: 8px;
-  font-family: sans-serif;
-  font-size: 17px;
-  background: #f3eeeeb3;
-  border: none;
-}
-
-.contact_us_block {
-  padding-top:150px;
-
-}
-
-.contact_us_form {
-  padding-left: 37.5%
-}
-
-.contact_us_text {
-  width: 35%;
-  padding: 12px 25px;
-  margin: 8px;
-  font-family: sans-serif;
-  font-size: 17px;
-  background: #f3eeeeb3;
-  border: none;
-  resize: none;
-}
-
-input:focus {
-  background:#dbdcdd;
-  outline: none;
-}
-
-textarea:focus {
-  background:#dbdcdd;
-  outline: none;
-}
-
-.send_align {
-  padding-left: 15%;
-}
-
-.send_button {
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
- }
