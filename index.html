@@ -8,6 +8,8 @@
     <title>ACM Manipal | Home </title>
 
     <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
     <link rel= "stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -70,11 +72,10 @@
 
   <body>
 
-  <div class="container">
+  <div class="container-fluid">
     <nav class="navigationbar">
       <ul class="nav_bar_list" id="navbar">
         <li class="navbar_list"><a class="nav_anchor" href="#board">Board</a></li>
-        <li class="navbar_list"><a class="nav_anchor" href="#workshops">Workshops</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#vision">Vision</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#About">About Us</a></li>
         <li class="navbar_list"><a class="nav_anchor" href="#home">Home</a></li>
@@ -82,8 +83,28 @@
       </ul>
     </nav>
 </div>
-    <div class="home_info_image" id="home">
-      <div class="homeinfo"></div>
+    <div id="home">
+      <div id="wowslider-container1">
+      <div class="ws_images"><ul>
+        <li><img src="data1/images/lambda.jpg" alt="Lambda Calculus" title="Lambda Calculus" style="width:100%" id="wows1_0"/></li>
+        <li><img src="data1/images/operating.jpg" alt="Operating systems" title="Operating systems" id="wows1_1" style="width:100%"/></li>
+        <li><img src="data1/images/machine_learning.jpg" alt="Machine Learning" title="Machine Learning" id="wows1_2" style="width:100%"/></li>
+        <li><img src="data1/images/gsoc.png" alt="Google Summer of Code" title="Google Summer of Code" id="wows1_3" style="width:100%"/></li>
+        <li><a href="http://wowslider.net"><img src="data1/images/neural_networks.jpg" alt="slider" title="Neural Networks" id="wows1_4" style="width:100%"/></a></li>
+        <li><img src="data1/images/cryptography.jpg" alt="Cryptography" title="Cryptography" id="wows1_5" style="width:100%"/></li>
+      </ul></div>
+      <div class="ws_bullets"><div>
+        <a href="#" title="Lambda Calculus"><span><img src="data1/tooltips/lambda.jpg" alt="Lambda Calculus"/>1</span></a>
+        <a href="#" title="Operating systems"><span><img src="data1/tooltips/operating.jpg" alt="Operating systems"/>2</span></a>
+        <a href="#" title="Machine Learning"><span><img src="data1/tooltips/machine_learning.jpg" alt="Machine Learning"/>3</span></a>
+        <a href="#" title="Google Summer of Code"><span><img src="data1/tooltips/gsoc.png" alt="Google Summer of Code"/>4</span></a>
+        <a href="#" title="Neural Networks"><span><img src="data1/tooltips/neural_networks.jpg" alt="Neural Networks"/>5</span></a>
+        <a href="#" title="Cryptography"><span><img src="data1/tooltips/cryptography.jpg" alt="Cryptography"/>6</span></a>
+      </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">javascript image slider</a> by WOWSlider.com v8.8m</div>
+      <div class="ws_shadow"></div>
+      </div>
+      <script type="text/javascript" src="engine1/wowslider.js"></script>
+      <script type="text/javascript" src="engine1/script.js"></script>
     </div>
 
     <div class="intro">
@@ -127,7 +148,6 @@
       </p>
     </div>
   </div>
-
 
 
 
