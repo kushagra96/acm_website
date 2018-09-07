@@ -65,33 +65,31 @@ body {
 }
 
 .intro {
-padding-right: 10%;
-background-color: #bfccc5;
-color: white;
-padding-bottom: 7%;
-display: table;
+  padding-right: 10%;
+  background-color: #bfccc5;
+  color: white;
+  padding-bottom: 7%;
+  display: table;
 }
 
-
-
 .about_us {
-background: url('../images/aboutus.jpeg') no-repeat center;
-background-size: 100 100;
-background-attachment: fixed;
-height: 1000px;
+  background: url('../images/aboutus.jpeg') no-repeat center;
+  background-size: 100 100;
+  background-attachment: fixed;
+  height: 1000px;
 }
 
 .about_us_block {
-padding-top: 15%;
-background-color: #0000008c;
-height: 800px;
+  padding-top: 15%;
+  background-color: #0000008c;
+  height: 800px;
 }
 
 .heading {
-text-align:center;
-color: white;
-font-size: 65px;
-font-family: sans-serif;
+  text-align:center;
+  color: white;
+  font-size: 65px;
+  font-family: sans-serif;
 }
 
 /* TODO: Use consistent naming scheme */
@@ -116,15 +114,14 @@ padding-bottom: 15%;
 }
 
 .heading_aim {
-text-align:center;
-color: black;
-font-size: 65px;
-font-family: sans-serif;
-padding-top: 25%;
+  text-align:center;
+  color: black;
+  font-size: 65px;
+  font-family: sans-serif;
+  padding-top: 25%;
 }
 
 .contact_us {
-
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center;
@@ -160,11 +157,11 @@ textarea:focus {
  }
 
  .heading1_board {
- text-align:center;
- color: black;
- font-size: 19px;
- font-family: sans-serif;
- padding-bottom: 30px;
+   text-align:center;
+   color: black;
+   font-size: 19px;
+   font-family: sans-serif;
+   padding-bottom: 30px;
  }
 
 .member_block {
@@ -202,7 +199,6 @@ textarea:focus {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 a.fa {
